@@ -3,6 +3,8 @@
 This GitHub repository contains the source code and jupyter notebook for reproducing the experiments in **"Probing Graph Structures of Text from Large Language Model"**.
 
 
+To run the notebook below, create the python environment using this command: `conda env create -f environment.yml`.
+
 [gcn_probe_on_gpt_pos.ipynb](https://github.com/yc015/hidden_graph_representations_of_language_in_GPT2/blob/main/gcn_probe_on_gpt_pos.ipynb): This notebook contains the experiment that test GPT-2's internal graph representation of text on classifying the POS of a word (node).
 
 [gcn_probe_on_gpt_chunk.ipynb](https://github.com/yc015/hidden_graph_representations_of_language_in_GPT2/blob/main/gcn_probe_on_gpt_chunk.ipynb): This notebook contains the experiment that test GPT-2's internal graph representation of text on splitting English sentence to chunks/phrases.
